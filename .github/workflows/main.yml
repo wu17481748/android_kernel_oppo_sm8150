@@ -1,7 +1,7 @@
 name: "OPPO Reno Ace  Kernelsu-docker-lxc内核"             
 on:
   push:
-    branches: ksu 
+    branches: 安卓12 
   schedule:
     - cron: 0 4 * * * 
   workflow_dispatch:                                  
