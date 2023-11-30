@@ -1,4 +1,4 @@
-name: "Build kernel"             
+name: "OPPO Reno Ace  Kernelsu-docker-lxc内核"             
 on:
   push:
     branches: ksu 
@@ -31,7 +31,7 @@ jobs:
       with:
         arch: arm64                                  
         compiler: clang/10/binutils                               
-        defconfig: sm8150_defconfig                    
+        defconfig: sm8150-s_defconfig                    
         image: Image-dtb                           
     - name: Upload final output
       uses: actions/upload-artifact@v3.1.2
